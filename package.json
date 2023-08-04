@@ -1,0 +1,19 @@
+{
+  "name": "@akindele1973/readf",
+  "version": "1.0.0",
+  "description": "Reduce hassles of reading and writing files with fs",
+  "main": "index.js",
+  "dependencies": {},
+  "homepage": "http://github.com/heroboyCloud/readf.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroboyCloud/readf.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" "
+  },
+  "keywords": ["fs","read","file","simple","sync"],
+  "author": "Akindele Azeez <shakiratakindel@gmail.com>",
+  "license": "ISC"
+}
