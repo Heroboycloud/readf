@@ -1,6 +1,6 @@
 {
   "name": "@akindele1973/readf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reduce hassles of reading and writing files with fs",
   "main": "index.js",
   "dependencies": {},
