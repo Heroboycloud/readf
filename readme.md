@@ -2,10 +2,10 @@
 
 A powerful, developer-friendly Node.js module for seamless file operations with both synchronous and asynchronous support.
 
-https://img.shields.io/npm/v/filepilot.svg
-https://img.shields.io/npm/dm/filepilot.svg
-https://img.shields.io/node/v/filepilot.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
+[!Filepilot](https://img.shields.io/npm/v/filepilot.svg)
+[!Npm](https://img.shields.io/npm/dm/filepilot.svg)
+[!Node](https://img.shields.io/node/v/filepilot.svg)
+[!License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ✨ Features
 
