@@ -1,9 +1,8 @@
 {
-  "name": "@akindele1973/readf",
-  "version": "1.0.4",
+  "name": "filepilot",
+  "version": "1.0.2",
   "description": "A powerful, developer-friendly file system module for reading, writing, and managing files with ease",
   "main": "index.js",
-  "types": "index.d.ts",
   "files": [
     "index.js",
     "index.d.ts",
@@ -17,19 +16,8 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint index.js",
     "lint:fix": "eslint index.js --fix",
-    "prepublishOnly": "npm run lint && npm test",
     "docs": "jsdoc -c jsdoc.json",
     "format": "prettier --write index.js"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-node": "^11.1.0",
-    "jest": "^29.7.0",
-    "jsdoc": "^4.0.2",
-    "prettier": "^3.1.0"
   },
   "peerDependencies": {
     "node": ">=14.0.0"
@@ -39,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroboyCloud/readf.git"
+    "url": "git+https://github.com/heroboyCloud/filepilot.git"
   },
-  "homepage": "https://github.com/heroboyCloud/readf#readme",
+  "homepage": "https://github.com/heroboyCloud/filepilot#readme",
   "bugs": {
-    "url": "https://github.com/heroboyCloud/readf/issues"
+    "url": "https://github.com/heroboyCloud/filepilot/issues"
   },
   "keywords": [
     "fs",
@@ -85,20 +73,33 @@
       "node": true,
       "es2021": true
     },
-    "extends": ["eslint:recommended", "prettier"],
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
     "parserOptions": {
       "ecmaVersion": 2021,
       "sourceType": "module"
     },
     "rules": {
       "no-console": "off",
-      "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
     }
   },
   "jest": {
     "testEnvironment": "node",
-    "coveragePathIgnorePatterns": ["/node_modules/", "/tests/"],
-    "collectCoverageFrom": ["index.js"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/tests/"
+    ],
+    "collectCoverageFrom": [
+      "index.js"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 80,
