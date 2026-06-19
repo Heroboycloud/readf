@@ -2,9 +2,12 @@
 
 A powerful, developer-friendly Node.js module for seamless file operations with both synchronous and asynchronous support.
 
-[!Filepilot](https://img.shields.io/npm/v/filepilot.svg)
+[!File pilot](https://img.shields.io/npm/v/filepilot.svg)
+
 [!Npm](https://img.shields.io/npm/dm/filepilot.svg)
+
 [!Node](https://img.shields.io/node/v/filepilot.svg)
+
 [!License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ✨ Features
@@ -23,19 +26,19 @@ A powerful, developer-friendly Node.js module for seamless file operations with 
 📦 Installation
 
 ```bash
-npm install easy-file-reader
+npm install filepilot
 ```
 
 or
 
 ```bash
-yarn add easy-file-reader
+yarn add filepilot
 ```
 
 🚀 Quick Start
 
 ```javascript
-const { read, write, readLines, watch } = require('easy-file-reader');
+const { read, write, readLines, watch } = require('filepilot');
 
 // Async/Await - Modern approach
 async function example() {
@@ -238,7 +241,7 @@ Legacy Support
 For backward compatibility with your original API:
 
 ```javascript
-const { ReadFile, ReadStream } = require('easy-file-reader');
+const { ReadFile, ReadStream } = require('filepilot');
 
 // Sync read
 const content = ReadFile('file.txt');
@@ -252,7 +255,7 @@ ReadStream('file.txt').then(content => console.log(content));
 Processing Large CSV Files
 
 ```javascript
-const { readLines } = require('easy-file-reader');
+const { readLines } = require('filepilot');
 
 async function processLargeCSV() {
   let total = 0;
@@ -274,7 +277,7 @@ async function processLargeCSV() {
 Config File with Watching
 
 ```javascript
-const { read, watch } = require('easy-file-reader');
+const { read, watch } = require('filepilot');
 
 class ConfigManager {
   constructor(configPath) {
@@ -330,7 +333,7 @@ config.watch();
 Backup System
 
 ```javascript
-const { copy, read, write, stats, listDirectory } = require('easy-file-reader');
+const { copy, read, write, stats, listDirectory } = require('filepilot');
 
 async function createBackup(sourceDir, backupDir) {
   // Create backup directory with timestamp
