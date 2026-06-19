@@ -12,16 +12,16 @@ A powerful, developer-friendly Node.js module for seamless file operations with 
 
 ✨ Features
 
-· 🚀 Simple & Intuitive API - Easy to learn and use
-· 📖 Multiple Reading Methods - Sync, Async, Stream, and Line-by-Line
-· ✍️ Complete File Operations - Read, Write, Append, Copy, Move, Delete
-· 📂 Directory Management - Create, list, and manage directories
-· 🔄 Stream Support - Handle large files efficiently
-· 👁️ File Watching - Monitor file changes in real-time
-· 🛡️ Robust Error Handling - Descriptive error messages
-· 🎯 Promise-based - Modern async/await support
-· 🔧 Flexible Options - Custom encoding, permissions, and more
-· 📦 Zero Dependencies - Uses only Node.js built-in modules
+1. 🚀 Simple & Intuitive API - Easy to learn and use
+2. 📖 Multiple Reading Methods - Sync, Async, Stream, and Line-by-Line
+3. ✍️ Complete File Operations - Read, Write, Append, Copy, Move, Delete
+4. 📂 Directory Management - Create, list, and manage directories
+5. 🔄 Stream Support - Handle large files efficiently
+6. 👁️ File Watching - Monitor file changes in real-time
+* 🛡️ Robust Error Handling - Descriptive error messages
+* 🎯 Promise-based - Modern async/await support
+* 🔧 Flexible Options - Custom encoding, permissions, and more
+* 📦 Zero Dependencies - Uses only Node.js built-in modules
 
 📦 Installation
 

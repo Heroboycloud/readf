@@ -1,6 +1,6 @@
 {
   "name": "filepilot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A powerful, developer-friendly file system module for reading, writing, and managing files with ease",
   "main": "index.js",
   "files": [
